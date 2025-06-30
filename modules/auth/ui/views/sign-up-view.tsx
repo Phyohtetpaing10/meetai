@@ -18,10 +18,10 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent } from "@/components/ui/card";
 import { useForm } from "react-hook-form";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { authClient } from "@/lib/auth-client";
 import { FaGoogle, FaGithub } from "react-icons/fa";
+import { useRouter } from "next/navigation";
 
 const formSchema = z
   .object({
